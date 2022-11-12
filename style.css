@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+    animation-name: asas;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes asas{
+    0%{
+        background-color: black;
+        left: 0;
+    }
+    100%{
+        background-color: blue;
+        left: 50%;
+    }
+}
